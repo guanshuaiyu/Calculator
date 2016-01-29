@@ -1,0 +1,134 @@
+@font-face{
+	font-family: "a";
+	src: url("../font/Helvetica.TTF");
+	}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	font-family:"a"; 
+}
+.juzhong{
+	width: 977px;
+	height: 650px;
+	border:5px solid #474747;
+	margin: 100px auto;
+	background-image:liner-gradient(#272822,black); 
+}
+.time{
+	width: 100%;
+	background-color: black;
+	height: 50px;
+}
+.xianshiqi{
+	width: 98%;
+	height: 100px;
+	border:3px solid black;
+	border-radius: 5px;
+	margin: 20px auto;
+	background-color: #28FF28; 
+	position: relative;
+}
+.zi{
+	text-align: right;
+	font-size: 50px;
+	position: absolute;
+	bottom: 3px;
+	right: 3px;
+}
+
+.btn{  
+	width: 100px;
+	height: 50px;
+	margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none; 
+  float: left; 
+  line-height: 50px;
+  text-decoration: none !important;  
+  border-radius: 5px;  
+  -webkit-transition: all 100ms linear;  
+  transition: all 100ms linear;  
+  touch-callout: none;  
+  -webkit-user-select: none;  
+  -moz-user-select: none;  
+  -ms-user-select: none;  
+  user-select: none;  
+  cursor: pointer;  
+  position: relative;  
+  text-align: center;  
+}  
+.btn.lan.hei{  
+  color: #ffffff;  
+  background: -webkit-linear-gradient(top, #161616 0%, #2f2f2f 100%);  
+  background: linear-gradient(to bottom, #161616 0%, #2f2f2f 100%);  
+  border: 1px solid #090909;  
+  box-shadow: 0px 4px 0px 0px #090909, 0px 5px 12px 0px rgba(0, 0, 0, 0.6), inset 0px 0px 10px -5px #000000;  
+}  
+.btn.lan.hei:hover{  
+  background: -webkit-linear-gradient(top, #161616 0%, #222222 100%);  
+  background: linear-gradient(to bottom, #161616 0%, #222222 100%);  
+}  
+.btn.lan.hei:hover:active{  
+  border: none !important;  
+  top: 4px;  
+  box-shadow: 0px 2px 0px 0px #090909, 0px 5px 12px 0px rgba(0, 0, 0, 0.6), inset 0px 0px 10px -5px #000000;  
+} 
+
+.lan{  
+  color: #ffffff;  
+  background: -webkit-linear-gradient(top, #70df9e 0%, #9ae8ba 100%);  
+  background: linear-gradient(to bottom, #70df9e 0%, #9ae8ba 100%);  
+  border: 1px solid #5cda8f;  
+  box-shadow: 0px 4px 0px 0px #5cda8f, 0px 5px 12px 0px rgba(0, 0, 0, 0.6), inset 0px 0px 10px -5px #000000;  
+}  
+.lan:hover{  
+  background: -webkit-linear-gradient(top, #70df9e 0%, #85e3ac 100%);  
+  background: linear-gradient(to bottom, #70df9e 0%, #85e3ac 100%);  
+}  
+.lan:hover:active{  
+  border: none !important;  
+  top: 4px;  
+  box-shadow: 0px 2px 0px 0px #5cda8f, 0px 5px 12px 0px rgba(0, 0, 0, 0.6), inset 0px 0px 10px -5px #000000;  
+} 
+.hui{  
+  color: #ffffff;  
+  background: -webkit-linear-gradient(top, #6fbdbf 0%, #92cdcf 100%);  
+  background: linear-gradient(to bottom, #6fbdbf 0%, #92cdcf 100%);  
+  border: 1px solid #5db5b8;  
+  box-shadow: 0px 4px 0px 0px #5db5b8, 0px 5px 12px 0px rgba(0, 0, 0, 0.6), inset 0px 0px 10px -5px #000000;  
+}  
+.hui:hover{  
+  background: -webkit-linear-gradient(top, #6fbdbf 0%, #80c5c7 100%);  
+  background: linear-gradient(to bottom, #6fbdbf 0%, #80c5c7 100%);  
+}  
+.hui:hover:active{  
+  border: none !important;  
+  top: 4px;  
+  box-shadow: 0px 2px 0px 0px #5db5b8, 0px 5px 12px 0px rgba(0, 0, 0, 0.6), inset 0px 0px 10px -5px #000000;  
+}  
+.cheng{  
+  color: #ffffff;  
+  background: -webkit-linear-gradient(top, #c03718 0%, #e44a27 100%);  
+  background: linear-gradient(to bottom, #c03718 0%, #e44a27 100%);  
+  border: 1px solid #a93115;  
+  box-shadow: 0px 4px 0px 0px #a93115, 0px 5px 12px 0px rgba(0, 0, 0, 0.6), inset 0px 0px 10px -5px #000000;  
+}  
+.cheng:hover{  
+  background: -webkit-linear-gradient(top, #c03718 0%, #d73e1b 100%);  
+  background: linear-gradient(to bottom, #c03718 0%, #d73e1b 100%);  
+}  
+.cheng:hover:active{  
+  border: none !important;  
+  top: 4px;  
+  box-shadow: 0px 2px 0px 0px #a93115, 0px 5px 12px 0px rgba(0, 0, 0, 0.6), inset 0px 0px 10px -5px #000000;  
+}  
+.kuan{
+	width: 220px;
+}
+.gao{
+	float: right;
+	margin-right: 10px;
+	height: 120px;
+	line-height: 120px;
+}
